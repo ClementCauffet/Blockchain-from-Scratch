@@ -11,6 +11,14 @@ General idea was to fully understand technical blockchain mechanism by implement
 - **hashable.rs** : trait checking if data is hashable before adding it to the block / network
 - **block.rs** : main implementation, blockchain characteritics
 
+### Installation
+
+```
+git clone https://github.com/ClementCauffet/Blockchain-from-Scratch.git
+cd blockchain-from-scratch
+cargo run
+```
+
 Thanks to both Blockchain and Rust communities for information provided online.
 
 **_!! This repository is still in progress. Do not use non-audited code for professionnal applications !!_**
