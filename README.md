@@ -39,7 +39,9 @@ cargo run
 4. Actual previous block hash == stored prev_block_hash value (except genesis block)
 
 Thanks to both Blockchain and Rust communities for information provided online :
+
 Rust Language : https://www.rust-lang.org/
+
 Algorithm Architecture : https://geeklaunch.net/blog/
 
 **_!! This repository is still in progress. Do not use non-audited code for professionnal applications !!_**
