@@ -1,6 +1,6 @@
 # Blockchain from Scratch
 
-PoW Blockchain implentation in Rust.
+PoW Blockchain implementation in Rust.
 
 General idea was to fully understand technical blockchain mechanism by implementing one from scratch.
 
@@ -31,6 +31,15 @@ cargo run
 4.  Add block to chain
 5.  Submit to peers
 
-Thanks to both Blockchain and Rust communities for information provided online.
+### Verification strategy
+
+1. Actual index == stored index value
+2. Correlation of the difficulty (just gonna trust difficulty atm -> dangerous for production applications)
+3. Time continuously increasing
+4. Actual previous block hash == stored prev_block_hash value (except genesis block)
+
+Thanks to both Blockchain and Rust communities for information provided online :
+Rust Language : https://www.rust-lang.org/
+Algorithm Architecture : https://geeklaunch.net/blog/
 
 **_!! This repository is still in progress. Do not use non-audited code for professionnal applications !!_**
