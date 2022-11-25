@@ -31,12 +31,19 @@ cargo run
 4.  Add block to chain
 5.  Submit to peers
 
-### Verification strategy
+### Adding blockcs Verification strategy
 
 1. Actual index == stored index value
 2. Correlation of the difficulty (just gonna trust difficulty atm -> dangerous for production applications)
 3. Time continuously increasing
 4. Actual previous block hash == stored prev_block_hash value (except genesis block)
+
+### Transactions verification strategy
+
+1.  Where did the money come from ?
+2.  Is the money available ?
+3.  Who owns the money and who is sending it ?
+4.  (WIP) more to cover later on cf -> https://en.bitcoin.it/wiki/Protocol_rules#.22tx.22_messages
 
 Thanks to both Blockchain and Rust communities for information provided online :
 
