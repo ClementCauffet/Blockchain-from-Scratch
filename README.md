@@ -45,6 +45,11 @@ cargo run
 3.  Who owns the money and who is sending it ?
 4.  (WIP) more to cover later on cf -> https://en.bitcoin.it/wiki/Protocol_rules#.22tx.22_messages
 
+### Transactions definition
+
+Transactions are composed of inputs and outputs.
+As a matter of fact, outputs are inputs from other transactions (UTXO-like).
+
 Thanks to both Blockchain and Rust communities for information provided online :
 
 Rust Language : https://www.rust-lang.org/
