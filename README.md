@@ -10,6 +10,8 @@ General idea was to fully understand technical blockchain mechanism by implement
 - **lib.rs** : basic bytes functions needed in the program
 - **hashable.rs** : computing data before hashing
 - **block.rs** : main implementation, blockchain characteritics
+- **blockchain.rs** : blockchain implentation and security mecanism defined in BlockValidationErr
+- **transactions.rs** : transactions implementation based on UTXOs (Bitcoin based)
 
 ### Installation
 
